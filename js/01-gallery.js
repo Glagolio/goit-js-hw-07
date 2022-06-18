@@ -11,7 +11,7 @@ const listGalleryEl = galleryItems.map(image =>
                 class="gallery__image"
                 src="${image.preview}"
                 data-source="${image.original}"
-                alt="${image.alt}"
+                alt="${image.description}"
             />
         </a>
     </div>`).join('');
